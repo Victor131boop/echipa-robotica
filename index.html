@@ -6,44 +6,68 @@
     <title>Robotica - Pagina Principală</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        /* Adaugă stiluri pentru îmbunătățirea vizibilității titlului */
-        h1 span {
-            color: #FF5733; /* Culoare contrastantă pentru Tech Titans */
-            font-weight: bold;
-        }
-
-        /* Stilizare pentru a îmbunătăți designul */
+        /* Stil pentru header */
         header {
             background-color: #282828;
             padding: 20px;
             text-align: center;
         }
 
+        /* Stil pentru titlu */
+        h1 span {
+            color: #FF5733;
+            font-weight: bold;
+        }
+
+        /* Stil pentru meniul de navigare */
         nav ul {
             list-style-type: none;
             padding: 0;
+            margin: 0;
         }
 
         nav ul li {
             display: inline;
-            margin: 0 15px;
+            margin: 0 20px;
         }
 
         nav ul li a {
-            color: #fff;
+            color: white;
             text-decoration: none;
             font-size: 18px;
+            padding: 10px 20px;
         }
 
         nav ul li a:hover {
-            color: #FF5733;
+            background-color: #FF5733;
+            color: white;
+            border-radius: 5px;
         }
 
+        /* Stil pentru footer */
         footer {
             background-color: #282828;
-            color: #fff;
+            color: white;
             text-align: center;
             padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Stil pentru main content */
+        main {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        main h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        main p {
+            font-size: 18px;
         }
     </style>
 </head>
@@ -52,10 +76,10 @@
         <h1>Echipa de Robotică <span>Tech Titans</span></h1>
         <nav>
             <ul>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">Acasă</a></li>
                 <li><a href="despre-noi.html">Despre Noi</a></li>
                 <li><a href="proiecte.html">Proiecte</a></li>
-                <li><a href="index.html">Acasă</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
